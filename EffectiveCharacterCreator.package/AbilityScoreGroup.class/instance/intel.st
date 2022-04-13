@@ -1,0 +1,4 @@
+accessing
+intel
+
+	^ intel

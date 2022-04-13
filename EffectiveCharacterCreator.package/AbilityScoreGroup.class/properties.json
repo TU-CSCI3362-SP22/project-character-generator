@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"strength",
+		"dex",
+		"const",
+		"intel",
+		"wis"
+	],
+	"name" : "AbilityScoreGroup",
+	"type" : "normal"
+}

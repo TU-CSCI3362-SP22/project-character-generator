@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"aScoreGroup",
+		"hp",
+		"ac",
+		"level",
+		"class",
+		"race"
+	],
+	"name" : "DndCharacter",
+	"type" : "normal"
+}
