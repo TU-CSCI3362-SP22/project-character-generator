@@ -1,19 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "WAComponent",
 	"category" : "EffectiveCharacterCreator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"scoreGroup",
-		"hp",
-		"ac",
-		"level",
-		"clazz",
-		"race",
-		"name"
+		"character",
+		"scoreGroupDisplay"
 	],
-	"name" : "DndCharacter",
+	"name" : "CharacterDisplayComponent",
 	"type" : "normal"
 }
