@@ -1,0 +1,16 @@
+tests
+testcreateDwarf
+
+	| bob |
+	bob := Dwarf new.
+	self assert: bob strMod equals: 0.
+	self assert: bob conMod equals: 2.
+	self assert: bob dexMod equals: 0.
+	self assert: bob intMod equals: 0.
+	self assert: bob wisMod equals: 0.
+	self assert: bob chrMod equals: 0.
+	self assert: bob classFeatures size equals: 4.
+	bob addFeature: 'Darkvision'.
+	self assert: bob classFeatures size equals: 4.
+	self assert: bob sizeCat equals: 'Medium'.
+	self assert: bob speed equals: 25
