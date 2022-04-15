@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Dwarf",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MountainDwarf",
+	"type" : "normal"
+}
