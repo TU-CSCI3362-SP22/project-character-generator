@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"characters",
+		"name",
+		"class",
+		"race",
+		"level",
+		"ac",
+		"str",
+		"con",
+		"wis",
+		"int",
+		"dex",
+		"chr"
+	],
+	"name" : "CharacterHandler",
+	"type" : "normal"
+}
