@@ -1,4 +1,4 @@
 accessing
 dex
 
-	^ dex
+	^ self getScoreModifierSum: dex modName: 'dex'.

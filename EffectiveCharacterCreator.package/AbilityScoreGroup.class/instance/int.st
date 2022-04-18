@@ -1,4 +1,4 @@
 accessing
 int
 
-	^ int
+	^ self getScoreModifierSum: int modName: 'int'.

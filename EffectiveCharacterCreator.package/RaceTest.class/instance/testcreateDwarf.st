@@ -9,7 +9,7 @@ testcreateDwarf
 	self assert: bob dexMod equals: 0.
 	self assert: bob intMod equals: 0.
 	self assert: bob wisMod equals: 0.
-	self assert: bob chrMod equals: 0.
+	self assert: bob chaMod equals: 0.
 	self assert: bob classFeatures size equals: 4.
 	bob addFeature: 'Darkvision'.
 	self assert: bob classFeatures size equals: 4.

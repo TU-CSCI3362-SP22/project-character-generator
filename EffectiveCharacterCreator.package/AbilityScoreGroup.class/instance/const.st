@@ -1,4 +1,4 @@
 accessing
 const
 
-	^ const
+	^ self getScoreModifierSum: const modName: 'con'.

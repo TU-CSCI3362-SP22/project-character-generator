@@ -1,4 +1,4 @@
 accessing
 str
 
-	^ str
+	^ self getScoreModifierSum: str modName: 'str'.

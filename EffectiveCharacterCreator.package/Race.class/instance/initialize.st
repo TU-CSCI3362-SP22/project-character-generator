@@ -5,7 +5,7 @@ initialize
 	conMod := 0.
 	intMod := 0.
 	wisMod := 0.
-	chrMod := 0.
+	chaMod := 0.
 	classFeatures := OrderedCollection new.
 	sizeCat := 'Medium'.
 	speed := 30.
