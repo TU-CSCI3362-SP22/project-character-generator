@@ -8,5 +8,5 @@ initialize
 	ac := 12.
 	level := 2.
 	clazz := 'Ranger'.
-	race := 'Half-elf'.
+	race := MountainDwarf new.
 	name := 'Meme Man'.
