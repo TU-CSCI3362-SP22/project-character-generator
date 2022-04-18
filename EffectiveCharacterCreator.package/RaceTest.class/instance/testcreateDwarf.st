@@ -3,6 +3,7 @@ testcreateDwarf
 
 	| bob |
 	bob := Dwarf new.
+	self assert: bob name equals: 'Dwarf'.
 	self assert: bob strMod equals: 0.
 	self assert: bob conMod equals: 2.
 	self assert: bob dexMod equals: 0.

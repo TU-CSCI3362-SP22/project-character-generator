@@ -6,7 +6,7 @@ renderContentOn: html
 	html heading 
 		level: 2;
 		with: character name.
-	html text: character race.
+	html text: character race name.
 	html break.
 	html text: character clazz.
 	html break.

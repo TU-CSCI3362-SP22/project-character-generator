@@ -10,6 +10,7 @@ testcreateHillDwarf
 	Transcript show: bob wisMod.
 	Transcript show: bob chrMod.
 	Transcript show: bob sizeCat."
+	self assert: bob name equals: 'Hill Dwarf'.
 	self assert: bob strMod equals: 0.
 	self assert: bob conMod equals: 2.
 	self assert: bob dexMod equals: 0.
