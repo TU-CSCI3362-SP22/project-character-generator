@@ -1,6 +1,6 @@
-rendering
-renderContentOn: html
+initialization
+initialize
 	"comment stating purpose of instance-side method"
 	"scope: class-variables  &  instance-variables"	
-			
-	html render: characterDisplay.
+	super initialize.
+	characterDisplay  := CharacterDisplayComponent new.

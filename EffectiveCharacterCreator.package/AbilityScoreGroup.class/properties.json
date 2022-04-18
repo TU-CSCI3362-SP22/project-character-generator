@@ -6,11 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"strength",
+		"str",
 		"dex",
 		"const",
-		"intel",
-		"wis"
+		"int",
+		"wis",
+		"cha"
 	],
 	"name" : "AbilityScoreGroup",
 	"type" : "normal"
