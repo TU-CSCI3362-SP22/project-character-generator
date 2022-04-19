@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Elf",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HighElf",
+	"type" : "normal"
+}
