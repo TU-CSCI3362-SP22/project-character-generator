@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	name := 'Lightfoot Halfling'.
-	chrMod := chrMod + 1.
+	chaMod := chaMod + 1.
 	self addFeature: 'Naturally Stealthy'.
