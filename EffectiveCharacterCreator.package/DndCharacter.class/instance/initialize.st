@@ -9,4 +9,5 @@ initialize
 	level := 2.
 	clazz := 'Ranger'.
 	race := MountainDwarf new.
+	scoreGroup applyModifiers: race getModifierMap source: race.
 	name := 'Meme Man'.

@@ -16,7 +16,7 @@ testcreateHillDwarf
 	self assert: bob dexMod equals: 0.
 	self assert: bob intMod equals: 0.
 	self assert: bob wisMod equals: 1.
-	self assert: bob chrMod equals: 0.
+	self assert: bob chaMod equals: 0.
 	self assert: bob classFeatures size equals: 5.
 	self assert: bob sizeCat equals: 'Medium'.
 	self assert: bob speed equals: 25.

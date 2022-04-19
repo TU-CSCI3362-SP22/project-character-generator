@@ -1,4 +1,4 @@
 accessing
 cha
 
-	^ cha
+	^ self getScoreModifierSum: cha modName: 'cha'.

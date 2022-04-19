@@ -1,19 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "TestCase",
 	"category" : "EffectiveCharacterCreator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"str",
-		"dex",
-		"const",
-		"int",
-		"wis",
-		"cha",
-		"modifiers"
-	],
-	"name" : "AbilityScoreGroup",
+	"instvars" : [ ],
+	"name" : "AbilityScoreGroupTest",
 	"type" : "normal"
 }
