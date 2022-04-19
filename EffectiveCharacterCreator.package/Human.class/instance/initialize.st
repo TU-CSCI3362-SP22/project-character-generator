@@ -7,4 +7,4 @@ initialize
 	conMod := 1.
 	intMod := 1.
 	wisMod := 1.
-	chrMod := 1.
+	chaMod := 1.
