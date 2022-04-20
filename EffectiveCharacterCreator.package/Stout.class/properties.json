@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Halfling",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Stout",
+	"type" : "normal"
+}

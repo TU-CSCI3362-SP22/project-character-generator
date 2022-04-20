@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"strMod",
+		"dexMod",
+		"conMod",
+		"intMod",
+		"wisMod",
+		"chaMod",
+		"classFeatures",
+		"sizeCat",
+		"speed"
+	],
+	"name" : "Race",
+	"type" : "normal"
+}

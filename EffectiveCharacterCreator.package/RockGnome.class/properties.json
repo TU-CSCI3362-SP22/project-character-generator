@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Gnome",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RockGnome",
+	"type" : "normal"
+}
