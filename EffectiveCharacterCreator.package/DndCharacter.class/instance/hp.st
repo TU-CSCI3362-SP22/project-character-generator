@@ -1,4 +1,4 @@
 accessing
 hp
 
-	^ hp
+	^ self calcHP
