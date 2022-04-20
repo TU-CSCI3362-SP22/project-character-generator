@@ -11,7 +11,14 @@
 		"ac",
 		"level",
 		"class",
-		"race"
+		"race",
+		"name",
+		"str",
+		"const",
+		"wis",
+		"int",
+		"dex",
+		"chr"
 	],
 	"name" : "DndCharacter",
 	"type" : "normal"

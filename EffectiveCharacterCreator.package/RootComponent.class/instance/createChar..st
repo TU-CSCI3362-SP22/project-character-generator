@@ -3,7 +3,7 @@ createChar: html
 
 	html form: [ 
 		html text: 'level'.
-		html textInput 
+		html numberInput  
 			callback: [ :value | charHandler level: value ];
 			value: '0'.
 		html break.
@@ -40,7 +40,7 @@ createChar: html
 		
 		html text: 'con'.
 		html numberInput 
-			callback: [ :value | charHandler con: value asInteger ];
+			callback: [ :value | charHandler const: value asInteger ];
 			value: 0.
 		html break.
 		
