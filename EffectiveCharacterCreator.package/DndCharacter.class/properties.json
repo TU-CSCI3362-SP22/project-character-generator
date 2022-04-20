@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ScoreGroup",
+		"scoreGroup",
 		"hp",
 		"ac",
 		"level",
