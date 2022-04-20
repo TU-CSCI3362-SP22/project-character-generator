@@ -10,7 +10,7 @@ print
 	Transcript show: name.
 	Transcript cr.
 	
-	Transcript show: class.
+	Transcript show: clazz.
 	Transcript cr.	
 	
 	Transcript show: race.

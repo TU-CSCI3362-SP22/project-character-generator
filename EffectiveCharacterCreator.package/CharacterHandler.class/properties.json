@@ -8,7 +8,7 @@
 	"instvars" : [
 		"characters",
 		"name",
-		"class",
+		"clazz",
 		"race",
 		"level",
 		"ac",

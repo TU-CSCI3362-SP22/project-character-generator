@@ -5,7 +5,7 @@ createChar: html
 		html text: 'level'.
 		html numberInput  
 			callback: [ :value | charHandler level: value ];
-			value: '0'.
+			value: 0.
 		html break.
 		
 		html text: 'ac'.

@@ -6,11 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"aScoreGroup",
+		"ScoreGroup",
 		"hp",
 		"ac",
 		"level",
-		"class",
+		"clazz",
 		"race",
 		"name",
 		"str",
