@@ -22,7 +22,7 @@ createChar: html
 		
 		html text: 'Class:'.
 		html textInput
-			callback: [ :value | charHandler class: value ];
+			callback: [ :value | charHandler clazz: value ];
 			value: 'class'. 
 		html break.
 		

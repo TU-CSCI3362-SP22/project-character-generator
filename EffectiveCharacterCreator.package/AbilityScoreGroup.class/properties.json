@@ -10,7 +10,9 @@
 		"dex",
 		"const",
 		"int",
-		"wis"
+		"wis",
+		"cha",
+		"modifiers"
 	],
 	"name" : "AbilityScoreGroup",
 	"type" : "normal"
