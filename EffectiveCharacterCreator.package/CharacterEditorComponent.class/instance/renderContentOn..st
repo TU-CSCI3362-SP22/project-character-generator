@@ -16,7 +16,7 @@ renderContentOn: html
 		
 		html select
 			list: raceSubclasses;
-			callback: [ :value | character race: ((value select: [ :char | char isLetter ]) asClass) new ].
+			callback: [ :value | character race: ((Race allSubclasses select: [ :race | ((race new) name) = value ]) at: 1) new ].
 		html break.
 		
 		html textInput
