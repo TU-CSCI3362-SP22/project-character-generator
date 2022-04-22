@@ -4,8 +4,8 @@ renderContentOn: html
 	"scope: class-variables  &  instance-variables"	
 	
 	| raceSubclasses |
-	
-	raceSubclasses := ((Race allSubclasses select: [ :value | value subclasses isEmpty ]) collect: [ :value | (value new) name ]).
+		
+	raceSubclasses := Race allSubclasses select: [ :value | value subclasses isEmpty ].
 	
 	html form: [ 
 		html textInput
@@ -16,7 +16,9 @@ renderContentOn: html
 		
 		html select
 			list: raceSubclasses;
-			callback: [ :value | character race: ((Race allSubclasses select: [ :race | ((race new) name) = value ]) at: 1) new ].
+			labels: [ :subclass | (subclass new) name ];
+			callback: [ :value | character race: value new. ];
+			selected: character race.
 		html break.
 		
 		html textInput
