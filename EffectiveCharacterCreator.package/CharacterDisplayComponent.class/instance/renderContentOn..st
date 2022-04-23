@@ -8,7 +8,9 @@ renderContentOn: html
 		with: character name.
 	html text: character race name.
 	html break.
-	html text: character clazz.
+	html text: character clazz name.
+	html break.
+	html text: 'Hit die: 1d', (character clazz hitDie) asString.
 	html break.
 	html text: 'Hit points: ', (character hp) asString.
 	html break.

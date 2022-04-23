@@ -3,9 +3,10 @@ renderContentOn: html
 	"comment stating purpose of instance-side method"
 	"scope: class-variables  &  instance-variables"	
 	
-	| raceSubclasses |
+	| raceSubclasses classSubclasses |
 		
 	raceSubclasses := Race allSubclasses select: [ :value | value subclasses isEmpty ].
+	classSubclasses := Clazz allSubclasses. 
 	
 	html form: [ 
 		html textInput
@@ -18,12 +19,16 @@ renderContentOn: html
 			list: raceSubclasses;
 			labels: [ :subclass | (subclass new) name ];
 			callback: [ :value | character race: value new. ];
-			selected: character race.
+			selected: (raceSubclasses detect: [ :thing | (thing new name) = (character race name) ]).
 		html break.
 		
-		html textInput
-			value: character clazz;
-			callback: [ :input | character clazz: input ].
+		html select
+			list: classSubclasses;
+			labels: [ :subclass | (subclass new) name ];
+			callback: [ :value | character clazz: value new. ];
+			selected: (classSubclasses detect: [ :thing | (thing new name) = (character clazz name) ]).
+		html break.
+		html text: 'Hit die: 1d', (character clazz hitDie) asString.
 		html break.
 		html text: 'Hit points: ', (character hp) asString.
 		html break.
