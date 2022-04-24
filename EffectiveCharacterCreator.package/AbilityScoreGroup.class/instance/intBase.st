@@ -1,0 +1,4 @@
+accessing
+intBase
+
+	^ int

@@ -6,10 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"character",
-		"scoreGroupDisplay",
-		"editor"
+		"scoreGroup"
 	],
-	"name" : "CharacterDisplayComponent",
+	"name" : "ScoreGroupEditorComponent",
 	"type" : "normal"
 }

@@ -2,7 +2,7 @@ tests
 testcreateLightfoot
 
 	| bob |
-	bob := Lightfoot new.
+	bob := LightfootHalfling new.
 	self assert: bob name equals: 'Lightfoot Halfling'.
 	self assert: bob strMod equals: 0.
 	self assert: bob conMod equals: 0.
