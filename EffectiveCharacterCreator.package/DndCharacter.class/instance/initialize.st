@@ -5,6 +5,7 @@ initialize
 
 	scoreGroup := AbilityScoreGroup new.
 	hp := 20.
+	ac := 12.
 	level := 2.
 	clazz := 'Ranger'.
 	race := MountainDwarf new.
