@@ -1,0 +1,4 @@
+accessing
+dexBase
+
+	^ dex

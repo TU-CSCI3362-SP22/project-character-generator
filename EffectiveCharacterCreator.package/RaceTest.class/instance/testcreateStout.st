@@ -2,7 +2,7 @@ tests
 testcreateStout
 
 	| bob |
-	bob := Stout new.
+	bob := StoutHalfling new.
 	self assert: bob name equals: 'Stout Halfling'.
 	self assert: bob strMod equals: 0.
 	self assert: bob conMod equals: 1.

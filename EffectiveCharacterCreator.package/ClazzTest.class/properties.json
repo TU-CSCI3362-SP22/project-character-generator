@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Halfling",
+	"super" : "TestCase",
 	"category" : "EffectiveCharacterCreator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Stout",
+	"instvars" : [
+		"name",
+		"hitDie"
+	],
+	"name" : "ClazzTest",
 	"type" : "normal"
 }

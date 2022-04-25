@@ -6,3 +6,5 @@ initialize
 	character := DndCharacter new.
 	scoreGroupDisplay := AbilityScoreDisplayComponent new.
 	scoreGroupDisplay scoreGroup: character scoreGroup.
+	editor := CharacterEditorComponent new.
+	editor character: character.

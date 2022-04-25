@@ -7,7 +7,7 @@ initialize
 	hp := 20.
 	ac := 12.
 	level := 2.
-	clazz := 'Ranger'.
+	clazz := Barbarian new.
 	race := MountainDwarf new.
 	scoreGroup applyModifiers: race getModifierMap source: race.
 	name := 'Meme Man'.

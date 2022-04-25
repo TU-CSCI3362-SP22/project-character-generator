@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WAComponent",
-	"category" : "EffectiveCharacterCreator",
+	"category" : "EffectiveCharacterCreator-Components",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
