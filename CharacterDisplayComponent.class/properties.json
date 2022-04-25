@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"character",
+		"scoreGroupDisplay"
+	],
+	"name" : "CharacterDisplayComponent",
+	"type" : "normal"
+}
