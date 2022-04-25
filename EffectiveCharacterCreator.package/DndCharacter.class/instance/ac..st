@@ -1,4 +1,4 @@
 accessing
 ac: anObject
 
-	ac := anObject
+	ac := anObject.
