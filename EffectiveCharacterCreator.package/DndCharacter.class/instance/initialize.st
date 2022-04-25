@@ -10,4 +10,5 @@ initialize
 	clazz := Barbarian new.
 	race := MountainDwarf new.
 	scoreGroup applyModifiers: race getModifierMap source: race.
+	ac := 10 + (scoreGroup makeRollModifiers: scoreGroup dex). 
 	name := 'Meme Man'.
