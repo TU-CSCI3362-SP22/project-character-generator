@@ -28,7 +28,12 @@ renderContentOn: html
 			callback: [ :value | character clazz: value new. ];
 			selected: (classSubclasses detect: [ :thing | (thing new name) = (character clazz name) ]).
 		html break.
-		html text: 'Hit die: 1d', (character clazz hitDie) asString.
+		html text: 'Level '.
+		html numberInput
+			value: (character level) asString;
+			callback: [ :input | character level: (input asNumber). ].
+		html break.
+		html text: 'Hit dice: ', (character hitDice) asString, 'd', (character clazz hitDie) asString.
 		html break.
 		html text: 'Hit points: ', (character hp) asString.
 		html break.

@@ -4,9 +4,10 @@ initialize
 	"scope: class-variables  &  instance-variables"	
 
 	scoreGroup := AbilityScoreGroup new.
-	hp := 20.
+	hpBase := 20.
 	ac := 10.
 	level := 2.
+	usedHitDice := 0.
 	clazz := Barbarian new.
 	race := MountainDwarf new.
 	scoreGroup applyModifiers: race getModifierMap source: race.

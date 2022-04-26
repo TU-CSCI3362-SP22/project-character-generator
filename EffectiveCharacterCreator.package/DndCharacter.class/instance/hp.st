@@ -1,4 +1,4 @@
 accessing
 hp
 
-	^ hp
+	^ hpBase + ((scoreGroup makeRollModifiers: scoreGroup const) * level).
