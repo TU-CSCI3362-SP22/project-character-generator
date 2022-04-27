@@ -9,5 +9,6 @@ initialize
 	level := 2.
 	clazz := Barbarian new.
 	race := MountainDwarf new.
+	profiencyBonus := ''.
 	scoreGroup applyModifiers: race getModifierMap source: race.
 	name := 'Meme Man'.

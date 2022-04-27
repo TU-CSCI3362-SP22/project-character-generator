@@ -12,7 +12,8 @@
 		"level",
 		"clazz",
 		"race",
-		"name"
+		"name",
+		"profiencyBonus"
 	],
 	"name" : "DndCharacter",
 	"type" : "normal"
