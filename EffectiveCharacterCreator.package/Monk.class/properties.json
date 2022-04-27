@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Clazz",
+	"category" : "EffectiveCharacterCreator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Monk",
+	"type" : "normal"
+}
