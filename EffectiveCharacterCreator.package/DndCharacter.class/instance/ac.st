@@ -1,4 +1,4 @@
 accessing
 ac
 
-	^ ac
+	^ ac + (scoreGroup dexMod). 

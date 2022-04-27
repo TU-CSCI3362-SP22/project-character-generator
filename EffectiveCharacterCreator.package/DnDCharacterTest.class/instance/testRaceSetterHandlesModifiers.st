@@ -13,3 +13,4 @@ testRaceSetterHandlesModifiers
 	character race: MountainDwarf new.
 	self assert: character scoreGroup wis equals: 10.
 	self assert: character scoreGroup str equals: 12.
+	self assert: character ac equals: 10.

@@ -5,10 +5,9 @@ initialize
 
 	scoreGroup := AbilityScoreGroup new.
 	hp := 20.
-	ac := 12.
+	ac := 10.
 	level := 2.
 	clazz := Barbarian new.
 	race := MountainDwarf new.
 	scoreGroup applyModifiers: race getModifierMap source: race.
-	ac := 10 + (scoreGroup makeRollModifiers: scoreGroup dex). 
 	name := 'Meme Man'.
