@@ -4,3 +4,4 @@ initialize
 	"scope: class-variables  &  instance-variables"	
 	super initialize.
 	characterDisplay  := CharacterDisplayComponent new.
+	characterCreation := CharacterCreationComponent new.

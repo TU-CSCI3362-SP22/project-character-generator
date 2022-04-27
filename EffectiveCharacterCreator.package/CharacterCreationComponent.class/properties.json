@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"characterDisplay",
-		"characterCreation"
+		"charHandler",
+		"characterDisplay"
 	],
-	"name" : "RootComponent",
+	"name" : "CharacterCreationComponent",
 	"type" : "normal"
 }

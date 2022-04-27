@@ -20,5 +20,6 @@ renderContentOn: html
 	html form: [ 
 		html submitButton
 			value: 'Edit';
-			callback: [ self call: editor ].
+			callback: [ editor character: character.
+							self call: editor ].
 	]
