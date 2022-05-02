@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "EffectiveCharacterCreator",
+	"super" : "WAComponent",
+	"category" : "EffectiveCharacterCreator-Components",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"hitDie",
 		"features"
 	],
-	"name" : "Clazz",
+	"name" : "FeaturesDisplayComponent",
 	"type" : "normal"
 }

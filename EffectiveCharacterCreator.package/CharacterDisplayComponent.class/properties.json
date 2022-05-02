@@ -8,7 +8,8 @@
 	"instvars" : [
 		"character",
 		"scoreGroupDisplay",
-		"editor"
+		"editor",
+		"featureDisplay"
 	],
 	"name" : "CharacterDisplayComponent",
 	"type" : "normal"
