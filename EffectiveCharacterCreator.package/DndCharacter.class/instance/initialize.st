@@ -12,4 +12,3 @@ initialize
 	profiencyBonus := ''.
 	scoreGroup applyModifiers: race getModifierMap source: race.
 	name := 'Meme Man'.
-	features := (race classFeatures), (clazz featuresAtLevel: level).

@@ -8,5 +8,3 @@ initialize
 	scoreGroupDisplay scoreGroup: character scoreGroup.
 	editor := CharacterEditorComponent new.
 	editor character: character.
-	featureDisplay := FeaturesDisplayComponent new.
-	featureDisplay features: character features.

@@ -13,8 +13,7 @@
 		"clazz",
 		"race",
 		"name",
-		"profiencyBonus",
-		"features"
+		"profiencyBonus"
 	],
 	"name" : "DndCharacter",
 	"type" : "normal"
