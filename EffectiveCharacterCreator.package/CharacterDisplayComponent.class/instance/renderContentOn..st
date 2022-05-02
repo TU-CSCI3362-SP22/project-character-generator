@@ -15,6 +15,8 @@ renderContentOn: html
 	html text: 'Hit points: ', (character hp) asString.
 	html break.
 	html text: 'Armor class: ', (character ac) asString.
+	html break.
+	html text: 'Proficienct Bonus: ', (character proficiencyBonus) asString.
 	html render: scoreGroupDisplay.
 	
 	html form: [ 
