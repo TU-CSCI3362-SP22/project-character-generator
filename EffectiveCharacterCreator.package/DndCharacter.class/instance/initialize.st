@@ -10,5 +10,8 @@ initialize
 	clazz := Barbarian new.
 	race := MountainDwarf new.
 	profiencyBonus := ''.
+	inventory := OrderedCollection new.
+	inventory add: ((InventoryItem new) name: 'Shortbow' description: '1d6 piercing').
+	inventory add: ((InventoryItem new) name: 'Battleaxe' description: '1d8 slashing, 1d10 slashing if two handed').
 	scoreGroup applyModifiers: race getModifierMap source: race.
 	name := 'Meme Man'.

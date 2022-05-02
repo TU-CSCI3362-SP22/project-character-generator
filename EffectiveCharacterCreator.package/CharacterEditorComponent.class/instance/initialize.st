@@ -7,4 +7,5 @@ initialize
 	
 	scoreGroupEditor := ScoreGroupEditorComponent new.
 	character := DndCharacter new.
+	inventoryEditor := InventoryEditorComponent withCharacter: character.
 	scoreGroupEditor scoreGroup: character scoreGroup.

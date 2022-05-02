@@ -1,15 +1,15 @@
 {
 	"commentStamp" : "",
 	"super" : "WAComponent",
-	"category" : "EffectiveCharacterCreator-Components",
+	"category" : "EffectiveCharacterCreator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"character",
-		"scoreGroupEditor",
-		"inventoryEditor"
+		"itemName",
+		"itemCount",
+		"itemDescription"
 	],
-	"name" : "CharacterEditorComponent",
+	"name" : "InventoryItem",
 	"type" : "normal"
 }

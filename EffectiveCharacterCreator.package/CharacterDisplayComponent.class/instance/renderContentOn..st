@@ -16,9 +16,9 @@ renderContentOn: html
 	html break.
 	html text: 'Armor class: ', (character ac) asString.
 	html render: scoreGroupDisplay.
-	
+	html render: inventoryDisplay.
 	html form: [ 
 		html submitButton
 			value: 'Edit';
-			callback: [ self call: editor ].
+			callback: [ self call: editor].
 	]

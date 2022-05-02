@@ -10,7 +10,7 @@ renderContentOn: html
 	
 	html form: [ 
 		html textInput
-			heading: 2;
+		"	heading: 2;"
 			value: character name;
 			callback: [ :input | character name: input ].
 		html break.
@@ -36,6 +36,7 @@ renderContentOn: html
 		html break.
 		
 		html render: scoreGroupEditor.
+		html render: inventoryEditor.
 		html submitButton
 			value: 'Save';
 			callback: [ self answer. ].

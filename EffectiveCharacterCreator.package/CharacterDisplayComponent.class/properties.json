@@ -8,6 +8,7 @@
 	"instvars" : [
 		"character",
 		"scoreGroupDisplay",
+		"inventoryDisplay",
 		"editor"
 	],
 	"name" : "CharacterDisplayComponent",

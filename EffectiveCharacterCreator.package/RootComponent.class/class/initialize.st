@@ -7,5 +7,5 @@ initialize
 	app := WAAdmin register: self asApplicationAt: 'Effective Character Creator'.
 	app
 		addLibrary: JQDeploymentLibrary;
-		addLibrary: JQUiDeploymentLibrary;
-		addLibrary: SBSDeploymentLibrary.
+		addLibrary: JQUiDeploymentLibrary.
+"		addLibrary: SBSDeploymentLibrary."
