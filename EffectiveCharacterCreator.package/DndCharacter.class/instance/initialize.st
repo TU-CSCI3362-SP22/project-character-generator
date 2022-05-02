@@ -14,4 +14,5 @@ initialize
 	inventory add: ((InventoryItem new) name: 'Shortbow' description: '1d6 piercing').
 	inventory add: ((InventoryItem new) name: 'Battleaxe' description: '1d8 slashing, 1d10 slashing if two handed').
 	scoreGroup applyModifiers: race getModifierMap source: race.
+	portrait := 'https://media.discordapp.net/attachments/321782818625814528/970787087223783504/unknown.png'.
 	name := 'Meme Man'.

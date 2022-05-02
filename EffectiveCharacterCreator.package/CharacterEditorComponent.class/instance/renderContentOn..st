@@ -9,12 +9,16 @@ renderContentOn: html
 	classSubclasses := Clazz allSubclasses. 
 	
 	html form: [ 
+
 		html textInput
 		"	heading: 2;"
 			value: character name;
 			callback: [ :input | character name: input ].
 		html break.
-		
+		html textInput
+			value: character portrait;
+			callback: [ :input | input ifNotEmpty: [character portrait: input ]].
+		html break.
 		html select
 			list: raceSubclasses;
 			labels: [ :subclass | (subclass new) name ];
