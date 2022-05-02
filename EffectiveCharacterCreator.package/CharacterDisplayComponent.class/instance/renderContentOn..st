@@ -18,6 +18,7 @@ renderContentOn: html
 	html break.
 	html text: 'Proficienct Bonus: ', (character proficiencyBonus) asString.
 	html render: scoreGroupDisplay.
+	html render: featureDisplay .
 	html render: inventoryDisplay.
 	html form: [ 
 		html submitButton

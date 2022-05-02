@@ -9,7 +9,8 @@
 		"character",
 		"scoreGroupDisplay",
 		"inventoryDisplay",
-		"editor"
+		"editor",
+		"featureDisplay"
 	],
 	"name" : "CharacterDisplayComponent",
 	"type" : "normal"
