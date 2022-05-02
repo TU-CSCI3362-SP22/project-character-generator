@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EffectiveCharacterCreator-Components",
+	"classinstvars" : [
+		"sides"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sides"
+	],
+	"name" : "Die",
+	"type" : "normal"
+}
