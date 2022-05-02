@@ -27,12 +27,16 @@ renderContentOn: html
 									id: 'item description'.
 							 ]
 						]
-					].		
+					].	
+					html tableData: [ 
+						html submitButton 
+							callback: [ 
+								self addInventorySlot.
+							 ];
+						with: 'New Item'. 
+					]	
 				].
-		html submitButton 
-			callback: [ 
-				 ];
-			with: 'New Item'.
+
 		html break.
 	
 	
