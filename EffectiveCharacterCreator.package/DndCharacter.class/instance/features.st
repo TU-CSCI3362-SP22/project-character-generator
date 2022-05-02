@@ -1,4 +1,4 @@
 accessing
 features
 
-	^ features
+	^ (race classFeatures), (clazz featuresAtLevel: level)

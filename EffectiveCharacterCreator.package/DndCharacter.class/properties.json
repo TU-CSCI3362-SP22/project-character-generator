@@ -14,7 +14,8 @@
 		"race",
 		"name",
 		"profiencyBonus",
-		"inventory"
+		"inventory",
+		"features"
 	],
 	"name" : "DndCharacter",
 	"type" : "normal"
