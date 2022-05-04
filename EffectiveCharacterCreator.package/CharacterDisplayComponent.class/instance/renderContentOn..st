@@ -6,7 +6,8 @@ renderContentOn: html
 	html heading 
 		level: 2;
 		with: character name.
-	character update.
+	(character portrait) ifNotNil:[ html image url:  (character portrait); height: 100].
+	html break.
 	html text: character race name.
 	html break.
 	html text: character clazz name.
@@ -16,8 +17,6 @@ renderContentOn: html
 	html text: 'Hit points: ', (character hp) asString.
 	html break.
 	html text: 'Armor class: ', (character ac) asString.
-	html break.
-	html text: 'Proficienct Bonus: ', (character proficiencyBonus) asString.
 	html render: scoreGroupDisplay.
 	featureDisplay features: character features.
 	html render: featureDisplay .

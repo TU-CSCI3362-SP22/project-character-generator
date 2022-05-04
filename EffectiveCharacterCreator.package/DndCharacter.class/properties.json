@@ -15,7 +15,8 @@
 		"name",
 		"profiencyBonus",
 		"inventory",
-		"features"
+		"features",
+		"portrait"
 	],
 	"name" : "DndCharacter",
 	"type" : "normal"
