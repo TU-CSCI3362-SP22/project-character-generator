@@ -9,3 +9,5 @@ initialize
 	inventoryDisplay := InventoryDisplayComponent withCharacter: character.
 	editor := CharacterEditorComponent new.
 	editor character: character.
+	featureDisplay := FeaturesDisplayComponent new.
+	featureDisplay features: character features.
