@@ -18,6 +18,8 @@ renderContentOn: html
 	html break.
 	html text: 'Armor class: ', (character ac) asString.
 	html render: scoreGroupDisplay.
+	featureDisplay features: character features.
+	html render: featureDisplay .
 	html render: inventoryDisplay.
 	html form: [ 
 		html submitButton
