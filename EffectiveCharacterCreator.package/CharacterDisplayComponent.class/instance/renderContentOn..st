@@ -11,6 +11,9 @@ renderContentOn: html
 	html break.
 	html text: character clazz name.
 	html break.
+	html text: 'Level: '.
+	html text: character level.
+	html break.
 	html text: 'Hit die: 1d', (character clazz hitDie) asString.
 	html break.
 	html text: 'Hit points: ', (character hp) asString.
