@@ -25,13 +25,19 @@ renderContentOn: html
 			callback: [ :value | character race: value new. ];
 			selected: (raceSubclasses detect: [ :thing | (thing new name) = (character race name) ]).
 		html break.
-		
+				
 		html select
 			list: classSubclasses;
 			labels: [ :subclass | (subclass new) name ];
 			callback: [ :value | character clazz: value new. ];
 			selected: (classSubclasses detect: [ :thing | (thing new name) = (character clazz name) ]).
 		html break.
+		
+		html numberInput
+			value: character level;
+			callback: [ :input | character level: input asNumber. ].
+		
+	html break.
 		html text: 'Hit die: 1d', (character clazz hitDie) asString.
 		html break.
 		html text: 'Hit points: ', (character hp) asString.
