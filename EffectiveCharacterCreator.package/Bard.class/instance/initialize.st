@@ -3,7 +3,6 @@ initialize
 	super initialize.
 	name := 'Bard'.
 	hitDie := 8.
-	features := Dictionary new.
 	features at: 1 put: { 'Spellcasting'. 'Bardic Inspiration (d6)' };
 		at: 2 put: { 'Jack of All Trades'. 'Song of Rest (d6)' };
 		at: 3 put: { 'Bard College'. 'Expertise' };
