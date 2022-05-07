@@ -3,7 +3,6 @@ initialize
 	super initialize.
 	name := 'Cleric'.
 	hitDie := 8.
-	features := Dictionary new.
 	features at: 1 put: { 'Spellcasting'. 'Divine Domain' };
 		at: 2 put: { 'Channel Divinity (1/rest)'. 'Divine Domain feature' };
 		at: 3 put: { };

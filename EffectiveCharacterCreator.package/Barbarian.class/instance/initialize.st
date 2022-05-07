@@ -3,7 +3,6 @@ initialize
 	super initialize.
 	name := 'Barbarian'.
 	hitDie := 12.
-	features := Dictionary new.
 	features at: 1 put: {'Rage'. 'Unarmored Defense'};
 		at: 2 put: { 'Reckless Attack'. 'Danger Sense' };
 		at: 3 put: { 'Primal Path' };
