@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"characterDisplay",
-		"dieDisplay"
+		"die"
 	],
-	"name" : "RootComponent",
+	"name" : "DieDisplayComponent",
 	"type" : "normal"
 }

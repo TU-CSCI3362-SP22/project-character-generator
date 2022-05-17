@@ -2,6 +2,7 @@ initialization
 initialize
 	"comment stating purpose of instance-side method"
 	"scope: class-variables  &  instance-variables"	
+			
 	super initialize.
-	characterDisplay  := CharacterDisplayComponent new.
-	dieDisplay := DieDisplayComponent new.
+	
+	die := Die new: 20.

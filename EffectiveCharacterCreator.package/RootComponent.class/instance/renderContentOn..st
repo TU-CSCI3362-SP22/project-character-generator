@@ -4,3 +4,4 @@ renderContentOn: html
 	"scope: class-variables  &  instance-variables"	
 			
 	html render: characterDisplay.
+	html render: dieDisplay.
